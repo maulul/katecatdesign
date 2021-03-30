@@ -1,0 +1,37 @@
+/* MIS TRABAJOS */
+
+
+
+
+
+.Mistrabajos {
+
+    .img-mb {
+        margin-bottom: 100px;
+        justify-content: center;
+        align-content: center;
+
+        .colapse-fondo {
+            @media (max-width: 768px) {
+                font-size: 15px;
+            }
+
+            font-family: $fontf-text;
+            font-size: $fonts-text;
+            margin: auto;
+            padding: 50px;
+        }
+
+        .img {
+            transition: all 1s;
+            margin: 20px 20px;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.2, 1.2);
+
+            }
+        }
+    }
+
+}

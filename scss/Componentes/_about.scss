@@ -1,0 +1,129 @@
+/* ABOUT */
+
+
+
+.CV-Kate {    
+
+    background-color: $bg-color-header;
+    box-shadow: $boxshadow-cuadros;
+    border: solid 1px black;
+    padding: 50px 30px;
+    
+	h2 {
+		font-size: $fonts-tsecun;
+		font-family: $fontf-text;
+		font-weight: bolder;
+	}
+
+	h3 {
+		color: brown;
+        font-size: 20px; 
+        font-family: $fontf-text;
+		font-weight: bold;
+	}
+	
+	ul{
+	
+	li {
+		
+		font-size: $fonts-text;
+        font-family: $fontf-text;
+		
+	}
+}
+		p {
+		font-size: $fonts-text;
+        font-family: $fontf-text;
+		
+	}
+    .titulo-about {
+        font-family: $fontf-tprinc;
+        font-size: 45px;
+    }
+
+    .Portfolio-d {
+        @media (max-width: 768px) {
+            font-size: 15px;
+        }
+
+        font-family: $fontf-text;
+        font-size: $fonts-text;
+
+        .click-descarga {
+            text-decoration: none;
+            color: rgb(105, 149, 160);
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+}
+
+.CV-resumen {
+	background-color: $bg-color-body;
+	margin: 50px;
+	padding: 50px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+.cronologia-item {
+	padding: 3em 2em 2em;
+	position: relative;
+	color: rgba(black, .7);
+	border-left: 2px solid black;
+
+	h2 {
+		
+		font-size: $fonts-tsecun;
+		font-family: $fontf-text;
+		font-weight: bolder;
+	}
+    
+    h3 {
+        font-size: 20px; 
+        font-family: $fontf-text;
+		font-weight: bold;
+	}
+	
+	p {
+		font-size: $fonts-text;
+        font-family: $fontf-text;
+	}
+	
+	ul li {
+		font-size: $fonts-text;
+        font-family: $fontf-text;
+		
+	}
+
+	&::before {
+		content: attr(date-is);
+		position: absolute;
+		left: 2em;
+		font-weight: bold;
+		top: 1em;
+		display: block;		
+		font-weight: 700;
+		font-size: .785rem;
+	}
+
+	&::after {
+		width: 10px;
+		height: 10px;
+		display: block;
+		top: 1em;
+		position: absolute;
+		left: -7px;
+		border-radius: 10px;
+		content: '';
+		border: 2px solid black;
+		background: white;
+	}
+
+	
+}
+
+

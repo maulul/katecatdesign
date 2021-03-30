@@ -1,0 +1,66 @@
+.Titulo-principal {
+    font-family: $fontf-tprinc;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: $fonts-tprinc;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    
+}
+
+.Titulo-secundario {
+    font-family: $fontf-text;  
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+    font-size: $fonts-tsecun;
+    margin-bottom: 100px;
+}
+
+
+.Titulo-resumen {
+    font-family: $fontf-tprinc;
+    font-weight: bold;
+    text-align: left;
+    font-size: $fonts-tsecun;
+    margin-top: 50px;
+}
+
+.Resumen-texto {
+    font-family: $fontf-text;
+    font-size: 20px;
+}
+
+.Titulo-destacados {
+    font-family: $fontf-text;  
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+    font-size: $fonts-tsecun;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.Texto-destacados {
+    font-family: $fontf-text;
+    font-size: $fonts-text;
+}
+
+.Img-destacados{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.Img-destacados{
+        .imagencuadrada {
+        height: 300px;
+        width: 380px;
+        margin: 10px;
+        background-color: $bg-color-cuadrado;        
+        box-shadow: $boxshadow-cuadros;
+        justify-content: center;
+        align-content: center;
+    }
+
+}

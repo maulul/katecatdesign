@@ -1,0 +1,71 @@
+header {
+    background-color: $bg-color-header;
+    backdrop-filter: blur(6px);
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    
+    .navbar-nav{
+        
+        
+        
+        
+        .menu{
+            
+            font-family: $fontf-text;
+            font-weight: bold;
+            background-color: none;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            word-spacing: 2px;
+            &:hover {
+                text-decoration: underline;
+            }
+            &:visited {
+                text-decoration: underline;
+            }
+            
+        }
+        .menu-desplegable {
+            font-family: $fontf-text;
+            font-weight: bold;
+            background-color: none;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            word-spacing: 2px;
+            &:hover {
+                text-decoration: underline;
+            }
+            &:visited {
+                text-decoration: underline;
+            }
+            
+        }
+        .menu-desplegado {
+            background-color: $bg-color-header;
+            text-decoration: none;
+        }
+        .dropwdown-item {
+            &:hover {
+                background-color: $bg-color-header;
+
+            }
+        }       
+    
+    }
+}
+
+.FakeHeader {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 50px;
+}
