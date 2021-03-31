@@ -1,0 +1,11 @@
+diff a/Contacto.html b/Contacto.html	(rejected hunks)
+@@ -86,7 +86,9 @@
+     <main>
+         <!--lista de datos para contacto-->
+         <section class="Contacto">
++|           <section>
+ 
++    </section>
+ 
+             <form action="/server/" method="post">
+                 <div class="Formulario">
