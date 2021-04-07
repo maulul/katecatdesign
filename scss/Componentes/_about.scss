@@ -31,6 +31,9 @@
 	ul{
 	
 	li {
+		@media (max-width: 768px) {
+			font-size: 0.8em;
+		}	
 		
 		font-size: $fonts-text;
         font-family: $fontf-text;
@@ -116,6 +119,9 @@
 	}
 	
 	ul li {
+		@media (max-width: 768px) {
+			font-size: 0.8em;
+		}
 		font-size: $fonts-text;
         font-family: $fontf-text;
 		
