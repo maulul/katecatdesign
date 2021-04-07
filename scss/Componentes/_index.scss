@@ -46,21 +46,9 @@
     font-size: $fonts-text;
 }
 
-.Img-destacados{
-    margin: 40px;
-    display: flex;
-    justify-content: center;
+.Img-destacados {
+    margin-top: 50px;
 }
 
-.Img-destacados{
-        .imagencuadrada {
-        height: 300px;
-        width: 380px;
-        margin: 10px;
-        background-color: $bg-color-cuadrado;        
-        box-shadow: $boxshadow-cuadros;
-        justify-content: center;
-        align-content: center;
-    }
 
-}
+

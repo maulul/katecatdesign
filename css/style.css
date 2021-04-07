@@ -109,19 +109,7 @@ header {
 }
 
 .Img-destacados {
-  margin: 40px;
-  display: flex;
-  justify-content: center;
-}
-
-.Img-destacados .imagencuadrada {
-  height: 300px;
-  width: 380px;
-  margin: 10px;
-  background-color: blanchedalmond;
-  box-shadow: 5px 10px 5px #a1a1a1;
-  justify-content: center;
-  align-content: center;
+  margin-top: 50px;
 }
 
 /* ABOUT */
