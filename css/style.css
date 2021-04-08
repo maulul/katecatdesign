@@ -70,6 +70,11 @@ header {
   margin-top: 30px;
   margin-bottom: 5px;
 }
+@media (max-width: 768px) {
+  .Titulo-principal {
+    font-size: 40px;
+  }
+}
 
 .Titulo-secundario {
   font-family: "Roboto", sans-serif;
@@ -79,6 +84,11 @@ header {
   font-size: 30px;
   margin-bottom: 100px;
 }
+@media (max-width: 768px) {
+  .Titulo-secundario {
+    font-size: 25px;
+  }
+}
 
 .Titulo-resumen {
   font-family: "Lora", serif;
@@ -86,6 +96,11 @@ header {
   text-align: left;
   font-size: 30px;
   margin-top: 50px;
+}
+@media (max-width: 768px) {
+  .Titulo-resumen {
+    font-size: 25px;
+  }
 }
 
 .Resumen-texto {
@@ -101,6 +116,11 @@ header {
   font-size: 30px;
   margin-top: 150px;
   margin-bottom: 100px;
+}
+@media (max-width: 768px) {
+  .Titulo-destacados {
+    font-size: 25px;
+  }
 }
 
 .Texto-destacados {
