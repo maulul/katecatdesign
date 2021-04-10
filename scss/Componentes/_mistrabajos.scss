@@ -6,20 +6,34 @@
 
 .Mistrabajos {
 
+    .contenido-modal {
+        
+        background-color: $bg-color-body;
+        h5 {
+            font-family: $fontf-text;
+        }
+    }
+
     .img-mb {
         margin-bottom: 100px;
         justify-content: center;
         align-content: center;
 
         .colapse-fondo {
+            padding-top: 10px;
             @media (max-width: 768px) {
                 font-size: 15px;
             }
 
             font-family: $fontf-text;
             font-size: $fonts-text;
-            margin: auto;
-            padding: 50px;
+            a {
+                text-decoration: none;
+                color: rgb(44, 44, 255);
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
 
         .img {

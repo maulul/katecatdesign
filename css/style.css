@@ -286,21 +286,33 @@ header {
 }
 
 /* MIS TRABAJOS */
+.Mistrabajos .contenido-modal {
+  background-color: #eeeae5;
+}
+.Mistrabajos .contenido-modal h5 {
+  font-family: "Roboto", sans-serif;
+}
 .Mistrabajos .img-mb {
   margin-bottom: 100px;
   justify-content: center;
   align-content: center;
 }
 .Mistrabajos .img-mb .colapse-fondo {
+  padding-top: 10px;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  margin: auto;
-  padding: 50px;
 }
 @media (max-width: 768px) {
   .Mistrabajos .img-mb .colapse-fondo {
     font-size: 15px;
   }
+}
+.Mistrabajos .img-mb .colapse-fondo a {
+  text-decoration: none;
+  color: #2c2cff;
+}
+.Mistrabajos .img-mb .colapse-fondo a:hover {
+  text-decoration: underline;
 }
 .Mistrabajos .img-mb .img {
   transition: all 1s;
