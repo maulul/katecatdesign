@@ -62,12 +62,6 @@ header {
   margin-bottom: 50px;
 }
 
-@media (max-width: 768px) {
-  article div img {
-    display: none;
-  }
-}
-
 .Titulo-principal {
   font-family: "Lora", serif;
   color: black;
