@@ -1,3 +1,13 @@
+article {
+    div {
+        img {
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+    }
+}
+
 .Titulo-principal {
     @media (max-width: 768px) {
         font-size: 40px;
