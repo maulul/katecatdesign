@@ -279,11 +279,6 @@ header {
   background: white;
 }
 
-.imagenPortfolio {
-  position: relative;
-  top: 15%;
-}
-
 /* MIS TRABAJOS */
 .Mistrabajos .contenido-modal {
   background-color: #eeeae5;
