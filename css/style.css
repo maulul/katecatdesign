@@ -286,6 +286,9 @@ header {
 .Mistrabajos .contenido-modal h5 {
   font-family: "Roboto", sans-serif;
 }
+.Mistrabajos .contenido-modal .modal-header .boton-cierre {
+  background-color: black;
+}
 .Mistrabajos .img-mb {
   margin-bottom: 100px;
   justify-content: center;
