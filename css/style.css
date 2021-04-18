@@ -207,6 +207,11 @@ header {
   border-radius: 5px;
 }
 @media (max-width: 768px) {
+  .CV-resumen {
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
   .CV-resumen img {
     display: none;
   }
